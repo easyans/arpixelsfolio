@@ -21,7 +21,6 @@ import { Button } from "@/components/ui/button";
 const icons = [
     adode,
     canva,
-    ai,
     figma,
     chatgpt,
     framer,

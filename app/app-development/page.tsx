@@ -1,3 +1,25 @@
+ /*import { ProjectCard } from "@/lib/interface";
+import {client}"@/lib/sanity";
+import Image from 'next/image';
+
+async fucntion getData(){
+    const  query = `*[_type == 'uiux ] | order(_createdAt desc) [0...4] {
+        title,
+        _id,
+        link,
+        description,
+        tags,
+        "imageUrl": image.asset->url
+    }`;
+
+    const data = await client.fetch(query, {}, {next: { revalidate: 30 } });
+
+    return data;
+}
+    */
+
+
+
 export default function ProjectPage() {
     return (
         <section className="max-w-7xl w-full px-4 md:px-8 mx-auto">
@@ -6,3 +28,6 @@ export default function ProjectPage() {
         </section>
     )
 }
+
+
+/**  **/
