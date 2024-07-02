@@ -1,5 +1,6 @@
 import Image from "next/image";
 import precodes from '../../public/precodes.jpg';
+import protos from '../../public/protos.jpg'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import adode from "../../public/adobe.svg"
 import canva from "../../public/tech-icons/canva.svg";
@@ -61,8 +62,8 @@ export function SectionTwo() {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 mt-10">
             <div className="w-full relative col-span-1">
                 <Image
-                    src={precodes}
-                    alt="precodes"
+                    src={protos}
+                    alt="protos"
                     className="object-cover rounded-2xl"
                     style={{ width: '400px', height: '400px' }}
                 />

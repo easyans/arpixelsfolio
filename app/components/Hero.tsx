@@ -9,8 +9,7 @@ export function Hero() {
           Hey I am Aakash Raj 🚀
         </h1>
         <h1 className="text-4xl lg:text-5xl font-normal mt-4 text-slate-400">
-          I am a UI/UX Designer and React native Frontend App developer
-          😁👀🚀
+        I am a UI/UX Designer, Graphic Designer, and React Native Frontend Developer.😁
         </h1>
 
         <a
