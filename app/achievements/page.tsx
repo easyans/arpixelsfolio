@@ -103,6 +103,34 @@ export default function Guestbookpage() {
             ))}
           </CarouselContent>
         </Carousel>
+
+
+  <Carousel className="aspect-ratio-auto max-w-sm flex justify-center items-center p-5">
+  <CarouselContent>
+    {Array.from({ length: 1 }).map((_, index) => (
+      <CarouselItem key={index}>
+        <Card className="overflow-hidden aspect-square flex items-center justify-center p-4">
+          <Image
+            src="https://media.licdn.com/dms/image/v2/D562DAQGfEYAlXo43WA/profile-treasury-image-shrink_1280_1280/B56ZYzm175GsAc-/0/1744622545381?e=1750770000&v=beta&t=uxjnV2pYIGOT5Nuw9Sl7ZXqkTQ26WSDrsN0878MTcts"
+            alt={`Random image ${index + 1}`}
+            className="w-full h-full object-cover rounded-sm"
+            style={{ width: '400px', height: '400px' }}
+          />
+        </Card>
+        <div>
+          <h1 className="text-2xl font-semibold sm:text-2xl pt-5">
+            Research <span className="text-blue-600">UI Designer Internship</span>
+          </h1>
+          <p className="text-base text-slate-400 text-justify">
+            Working team member for the Exo Gear startup, as an intern in UI/UX Designing Team from March 2024 - July-2024.
+          </p>
+        </div>
+      </CarouselItem>
+    ))}
+  </CarouselContent>
+</Carousel>
+
+        
       </div>
     </section>
   );
